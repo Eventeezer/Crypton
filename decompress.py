@@ -18,4 +18,4 @@ if y % 2 != y_parity:
     y = -y % p
 uncompressed_key = '04{:x}{:x}'.format(x, y)
 
-print(uncompressed_key)
+print(uncompressed_key)    # 04 795da6e3547eb73fac3f2b56c89c34f8e32049bafd0747957219e4c09f37e4c 69943eb7f693f5311fb4caa7d63a51f6f5ef20924f642fa8502b553eadc6cb26
